@@ -106,7 +106,7 @@ if has("autocmd")
   au BufNewFile,BufRead,Syntax *.py,*.rst
 		\ setlocal sw=4 ts=4 sts=4 et ai sta
   
-  au BufWritePre *.py,*.rst,*.php,*.css,*.rb,*.rhtml,*.scm,*.sh,*.h,*.c,*.cc
+  au BufWritePre *.py,*.rst,*.php,*.css,*.rb,*.rhtml,*.scm,*.sh,*.h,*.c,*.cc,*.html
 		\ call ScrubTrailing()
 
   " Automatically give executable permissions
