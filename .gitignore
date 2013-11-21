@@ -1,0 +1,4 @@
+.netrwhist
+*.zwc
+*.cache
+/.vim/bundle/*/
