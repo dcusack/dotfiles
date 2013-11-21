@@ -4,6 +4,14 @@ set noswapfile
 set enc=utf-8
 set tenc=utf-8
 
+" Pathogen {{{
+" Read this: http://tammersaleh.com/posts/the-modern-vim-config-with-pathogen
+if has("autocmd")
+  call pathogen#infect()
+  call pathogen#helptags()
+endif
+" }}}
+
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
